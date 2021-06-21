@@ -15,8 +15,8 @@ function multOfWord(e) {
   if (inputFirstRef.value.match('[p{Alpha}p{M}p{Nd}p{Pc}p{Join_C}]')) {
     inputFirstRef.style.borderColor = 'green';
   } else if (inputFirstRef.value === '') {
-    inputFirstRef.style.borderColor = 'red';
     alert('Напишите фразу из букв и цифр!');
+    inputFirstRef.style.borderColor = 'red';
   }
 
   // Второе поле
@@ -32,8 +32,8 @@ function multOfWord(e) {
   if (inputThreeRef.value.match('[p{Alpha}p{M}p{Nd}p{Pc}p{Join_C}]')) {
     inputThreeRef.style.borderColor = 'green';
   } else if (inputThreeRef.value === '') {
-    inputThreeRef.style.borderColor = 'red';
     alert('Напишите фразу из букв и цифр!');
+    inputThreeRef.style.borderColor = 'red';
   }
 
   // Четвертое поле
