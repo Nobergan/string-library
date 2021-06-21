@@ -1,0 +1,74 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.task {
+  margin-bottom: 20px;
+}
+
+.equations {
+  display: flex;
+  justify-content: center;
+}
+
+.equations input {
+  width: 135px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+}
+
+.equations input::placeholder {
+  font-size: 10px;
+}
+
+input:focus {
+  border: 1px solid blue;
+  outline: none;
+}
+
+.input:not(:placeholder-shown):valid {
+  border-color: green;
+}
+
+.input:not(:placeholder-shown):invalid {
+  border-color: red;
+}
+
+.math {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.btn {
+  margin-left: 4px;
+  background-color: blue;
+  border-color: transparent;
+  border-radius: 4px;
+  color: white;
+}
+
+.btn:hover {
+  background-color: green;
+}
+
+.btn:focus {
+  background-color: red;
+}
+
+.result {
+  width: 600px;
+  word-wrap: break-word;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  font-size: 40px;
+  font-weight: 600;
+  color: green;
+}

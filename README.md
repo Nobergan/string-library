@@ -1,1 +1,1 @@
-# string-library
+# strig-library

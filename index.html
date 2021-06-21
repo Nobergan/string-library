@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String library</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p class="task">
+        <b
+          >Нужно написать библиотеку, которая возвращает один метод. Метод
+          должен принимать строку состоящую из букв и математических операций:
+          “*” и “+”, - например “(abc*3+trc)*2 и возвращать строку-результат
+          операций (abcabcabctrcabcabcabctrc). В случае получения неправильного
+          аргумента выдавать ошибку.</b
+        >
+      </p>
+      <div class="equations">
+        <form>
+          (
+          <input
+            type="text"
+            class="input-first input"
+            placeholder="Введите любую фразу..."
+            required
+          />
+          <label for=""></label> <span class="math">*</span>
+
+          <input
+            type="text"
+            class="input-two input"
+            placeholder="Введите число..."
+            pattern="[0-9]+"
+            required
+          />
+          <label for=""></label> <span class="math">+</span>
+
+          <label for=""></label>
+          <input
+            type="text"
+            class="input-three input"
+            placeholder="Введите любую фразу..."
+            required
+          />
+          ) <span class="math">*</span>
+
+          <input
+            type="text"
+            class="input-four input"
+            placeholder="Введите число..."
+            pattern="[0-9]+"
+            required
+          />
+          <label for=""></label><span class="math">=</span>
+        </form>
+
+        <button type="button" class="btn">Смотреть результат</button>
+      </div>
+    </div>
+    <div class="result"></div>
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
